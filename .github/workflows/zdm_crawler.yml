@@ -76,9 +76,9 @@ jobs:
       - name: Main logic
         env:
           maxPageSize: 10
-          minVoted: 10
-          minComments: 2
-          MIN_PUSH_SIZE: 20
+          minVoted: 0
+          minComments: 0
+          MIN_PUSH_SIZE: 1
           emailHost: smtp.qq.com
           emailPort: 465
           emailAccount: ${{ secrets.emailAccount }}
