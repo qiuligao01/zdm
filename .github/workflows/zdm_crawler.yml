@@ -76,7 +76,7 @@ jobs:
       - name: Main logic
         env:
           maxPageSize: 10
-          minVoted: 0
+          minVoted: 5
           minComments: 0
           MIN_PUSH_SIZE: 1
           emailHost: smtp.qq.com
